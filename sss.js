@@ -36,7 +36,7 @@ calculateButton.addEventListener("click", function () {
 
     var perPersonAmount = calculatePerPersonAmount(totalAmount, numberOfPeople);
 
-    document.getElementById("tipAmount").innerText = tipAmount.toFixed(2);
-    document.getElementById("totalAmount").innerText = totalAmount.toFixed(2);
-    document.getElementById("perPersonAmount").innerText = perPersonAmount.toFixed(2);
+    document.getElementById("tipAmount").innerText = tipAmount.toFixed(5);
+    document.getElementById("totalAmount").innerText = totalAmount.toFixed(0);
+    document.getElementById("perPersonAmount").innerText = perPersonAmount.toFixed(15);
 });
